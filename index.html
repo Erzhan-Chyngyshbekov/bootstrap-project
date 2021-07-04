@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beton</title>
+
+    <link rel="stylesheet" href="./styles/styles.css">
+
+    <!-- Bootstrap CDN -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script> -->
+
+
+    <!-- minified -->
+    <link rel="stylesheet" href="./styles/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/bootstrap/js/bootstrap.min.js">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="bg">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid nav__content">
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/icons/logo.png" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#">Цены</a>
+                        <a class="nav-link" href="#">О нас</a>
+                        <a class="nav-link" href="#">Клиенты</a>
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Контакты</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <section class="hero">
+            <div
+                class="container hero__content d-flex justify-content-between align-items-center flex-column flex-lg-row">
+                <div>
+                    <p class="fs-4 fw-light">Доставляем</p>
+                    <h1>Бетон и Раствор</h1>
+                    <p class="fs-4 fw-light">Решим вашу задачу любой сложности</p>
+                    <button class="btn accent-btn mt-4">
+                        Заказать
+                    </button>
+                </div>
+
+                <img class="img-fluid" src="./assets/images/truck.png" alt="truck">
+
+            </div>
+        </section>
+    </div>
+
+    <div class="row px-3 justify-content-center justify-content-xl-evenly text-center">
+
+        <div class="card col-sm-12 col-md-6 col-lg-4 col-xl-3 mb-5 mx-2 mx-xl-0 shadow-sm p-3 mb-5 bg-white rounded">
+            <p class="number">01</p>
+            <div class="card-body">
+                <h5 class="card-title">Выбрать марку</h5>
+                <p class="card-text">Звоните. Мы поможем вам выбрать марку</p>
+            </div>
+        </div>
+
+        <div class="card col-sm-12 col-md-6 col-lg-4 col-xl-3 mb-5 mx-2 mx-xl-0 shadow-sm p-3 mb-5 bg-white rounded">
+            <p class="number">02</p>
+            <div class="card-body">
+                <h5 class="card-title">Подберем технику</h5>
+                <p class="card-text">Звоните. Мы организуем доставку техники, бетона</p>
+            </div>
+        </div>
+
+        <div class="card col-sm-12 col-md-6 col-lg-4 col-xl-3 mb-5 mx-2 mx-xl-0 shadow-sm p-3 mb-5 bg-white rounded">
+            <p class="number">03</p>
+            <div class="card-body">
+                <h5 class="card-title">Адрес доставки</h5>
+                <p class="card-text">Звоните. Мы расчитаем стоимость доставки</p>
+            </div>
+        </div>
+
+    </div>
+
+    <h2 class="text-center">Наши преимущества</h2>
+
+    <section class="bg-image d-flex flex-row justify-content-evenly flex-wrap text-center pt-5">
+        <div>
+            <h4>Надежность</h4>
+            <p>Решаем задачи в точные <br> сроки и в полном объеме. </p>
+        </div>
+        <div>
+            <h4>Собственный автопарк</h4>
+            <p>Бетоносмесители, самосвалы, <br> тонары, погрузчики.</p>
+        </div>
+        <div>
+            <h4>Нормативные документы</h4>
+            <p>Сертификаты, сопроволительные <br> документы, соответствие ГОСТ</p>
+        </div>
+    </section>
+
+    <section class="container-2 text-center pt-5">
+        <h4>Закажи прямо сейчас</h4>
+        <p>Мы перезвоним в течение 30 минут</p>
+        <div class="container-2__info d-flex flex-row justify-content-center flex-wrap">
+            <img src="./assets/images/working.png" alt="working">
+            <div class="d-flex flex-column my-auto justify-content-center">
+                <input class="input" type="text" placeholder="Ваше имя">
+                <input class="input" type="tel" placeholder="Телефон">
+                <button class="btn accent-btn">Перезвонить мне</button>
+                <p style="font-size: 12px;"><input type="checkbox"> Даю согласие на обработку данных</p>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="container-3 py-5">
+        <h4 class="text-center">Нас выбрали</h4>
+        <div class="container-3__items d-flex flex-row justify-content-center flex-wrap">
+            <img src="./assets/icons/Rectangle 33.png" alt="LeroyMerlin">
+            <img src="./assets/icons/Rectangle 34.png" alt="Pyatyorochka">
+            <img src="./assets/icons/Rectangle 35.png" alt="YaShZ">
+            <img src="./assets/icons/Rectangle 36.png" alt="PSM">
+            <img style="height: 142px; width: 148px;" src="./assets/icons/Rectangle 37.png" alt="circle">
+            <img src="./assets/icons/Rectangle 38.png" alt="Zoo">
+        </div>
+    </section>
+
+    <img class="w-100" src="./assets/images/map.png" alt="map">
+
+
+    <section class="footer text-light">
+        <div class="footer__info d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-row">
+            <div>
+                <img src="./assets/icons/logo.png" alt="logo">
+                <p>Политики конфиденциальнности</p>
+                <p>Соглашение на обработку персональных данных</p>
+            </div>
+            <div>
+                <p>Главная</p>
+                <p>Цена</p>
+                <p>О нас</p>
+                <p>Отзывы</p>
+            </div>
+            <div>
+                <p>vkontaknte</p>
+                <p>viber</p>
+                <p>instagram</p>
+                <p>whatsapp</p>
+            </div>
+            <div>
+                <p>г. Ярославль, ул. Чернопрудная 30</p>
+                <p>+7 (4852) 43-65-71</p>
+                <p>betonmobil@yandex.ru</p>
+                <button class="btn accent-btn w-75">Перезвонить мне</button>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

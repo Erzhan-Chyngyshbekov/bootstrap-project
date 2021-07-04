@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+.bg{
+    background-image: url(../assets/images/Rectangle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar-brand img{
+    width: 110px;
+}
+
+.nav__content{
+    max-width: 1140px;
+}
+
+
+@media (min-width: 1400px){
+    .container{
+        max-width: 1140px !important;
+    }
+}
+
+.accent-btn{
+    background-color: #3D9BE9 !important;
+    color: white !important;
+    width: 300px;
+    font-weight: 300 !important;
+    padding: 15px 20px !important;
+}
+
+.hero__content img{
+    width: 729px;
+    height: auto;
+    object-fit: contain;
+}
+
+
+.number{
+    font-size: 96px;
+    color: #EFF5F8;
+    font-weight: bold;
+}
+
+.bg-image{
+    background-image: url(../assets/images/Rectangle2.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-2{
+    background-color: #f8f8f8;
+}
+
+.container-2__info input{
+    margin-top: 20px;
+}
+
+.container-2__info .input{
+    background-color: #f8f8f8;
+    border: none;
+    border-bottom: black 1px solid !important;
+    width: 250px;
+    height: 50px;
+    padding: 5px;
+}
+
+.container-2 button{
+    background-color: #3D9BE9 !important;
+    color: white !important;
+    width: 250px;
+    font-weight: 300 !important;
+    padding: 15px 20px !important;
+    margin-top: 40px;
+}
+
+.container-3 img{
+    width: 400px;
+    height: auto;
+}
+
+.footer{
+    height: auto;
+    padding: 50px 0;
+    background-color: #333333;
+}
+
+.footer__info{
+    margin: auto auto;
+}
+
+@media (min-width: 1400px){
+    .footer__info{
+        max-width: 1140px !important;
+    }
+}
+
+.footer img{
+    width: 110px;
+    margin-bottom: 30px;
+}
+
+.footer__info div{
+    margin: 20px;
+}
